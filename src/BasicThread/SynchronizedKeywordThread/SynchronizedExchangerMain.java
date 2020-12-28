@@ -1,4 +1,4 @@
-package SynchronizedKeywordThread;
+package BasicThread.SynchronizedKeywordThread;
 
 public class SynchronizedExchangerMain {
     public static void main(String[] args) {

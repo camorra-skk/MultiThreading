@@ -1,4 +1,4 @@
-package ThreadMethodsImpl;
+package BasicThread.ThreadMethodsImpl;
 
 public class ThreadJoin {
     public static void main(String[] args) {

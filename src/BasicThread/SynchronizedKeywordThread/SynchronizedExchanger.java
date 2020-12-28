@@ -1,4 +1,4 @@
-package SynchronizedKeywordThread;
+package BasicThread.SynchronizedKeywordThread;
 
 public class SynchronizedExchanger {
     protected Object object = null;

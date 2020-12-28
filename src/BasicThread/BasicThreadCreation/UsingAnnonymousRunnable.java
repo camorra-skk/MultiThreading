@@ -1,4 +1,4 @@
-package BasicThreadCreation;
+package BasicThread.BasicThreadCreation;
 
 public class UsingAnnonymousRunnable {
     public static void main(String[] args) {

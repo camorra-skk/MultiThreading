@@ -1,4 +1,4 @@
-package SynchronizedKeywordThread;
+package BasicThread.SynchronizedKeywordThread;
 
 public class StaticSynchronizedExchanger {
     private static Object object = null;

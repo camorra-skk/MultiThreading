@@ -1,4 +1,4 @@
-package BasicThreadCreation;
+package BasicThread.BasicThreadCreation;
 
 class MyThread extends Thread {
     @Override

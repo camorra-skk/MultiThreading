@@ -1,4 +1,4 @@
-package ThreadMethodsImpl;
+package BasicThread.ThreadMethodsImpl;
 
 import static java.lang.Thread.sleep;
 

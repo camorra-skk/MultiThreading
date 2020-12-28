@@ -1,15 +1,10 @@
-package ThreadMethodsImpl;
+package BasicThread.BasicThreadCreation;
 
-public class ThreadSleepImpl {
+public class UsingLambdaRunnable {
     public static void main(String[] args) {
         Runnable myRunnable = () -> {
             System.out.println("New Thread : " +Thread.currentThread().getName());
             System.out.println("Lambda Runnable Running");
-            try {
-                Thread.sleep(2000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
             System.out.println("Lambda Runnable Completed");
         };
 

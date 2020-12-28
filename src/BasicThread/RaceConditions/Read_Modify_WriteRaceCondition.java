@@ -1,4 +1,4 @@
-package RaceConditions;
+package BasicThread.RaceConditions;
 
 public class Read_Modify_WriteRaceCondition {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package ThreadLocal;
+package BasicThread.ThreadLocal;
 
 public class ThreadLocalImpl {
     public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class ThreadLocalImpl {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            System.out.println("ThreadLocal Set in Thread 1");
+            System.out.println("BasicThread.ThreadLocal Set in Thread 1");
             threadLocal.set("Sumit");
             try {
                 Thread.sleep(2000);
@@ -22,7 +22,7 @@ public class ThreadLocalImpl {
 
         Thread t2 = new Thread(() -> {
             threadLocal.set("Kapoor");
-            System.out.println("ThreadLocal Set in Thread 2");
+            System.out.println("BasicThread.ThreadLocal Set in Thread 2");
             try {
                 Thread.sleep(3000);
             } catch (InterruptedException e) {

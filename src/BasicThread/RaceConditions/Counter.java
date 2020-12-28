@@ -1,4 +1,4 @@
-package RaceConditions;
+package BasicThread.RaceConditions;
 
 public class Counter {
     private long counter = 0;

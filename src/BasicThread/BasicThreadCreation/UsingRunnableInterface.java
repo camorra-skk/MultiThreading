@@ -1,4 +1,4 @@
-package BasicThreadCreation;
+package BasicThread.BasicThreadCreation;
 
 class myRunnable implements Runnable {
     @Override
