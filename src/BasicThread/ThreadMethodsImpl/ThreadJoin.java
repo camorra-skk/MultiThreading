@@ -14,7 +14,7 @@ public class ThreadJoin {
         t.start();
 
         try {
-            t.join();
+            t.join(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
